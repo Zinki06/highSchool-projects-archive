@@ -27,6 +27,10 @@
 - **기간**: 고등학교 3학년 말
 - **내용**: CNN, Transformer 모델 활용
 
+### 5. 컴퓨터 비전 ([stereo-3d-tracker](stereo-3d-tracker/))
+- **기간**: 고등학교 3학년 말
+- **내용**: 스테레오 비전 기반 3D 객체 추적
+
 ## 프로젝트 요약
 
 | 프로젝트 | 기술 스택 | 특징 |
@@ -37,6 +41,7 @@
 | emotion-color-ai | Python, 웹, Gemini API | 개인화 추천 시스템 |
 | school-vision-classifier | PyTorch, ResNet18 | 85% 분류 정확도 |
 | news-trust-detector | Transformer, NLP | 파인튜닝 구현 |
+| stereo-3d-tracker | OpenCV, 스테레오 매칭 | 실시간 3D 추적 |
 
 ## 사용한 기술
 
