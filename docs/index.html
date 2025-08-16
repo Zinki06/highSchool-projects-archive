@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고등학생 시절 프로젝트 포트폴리오</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <h1 class="logo">Portfolio</h1>
+                <div class="nav-links">
+                    <a href="#overview">개요</a>
+                    <a href="#projects">프로젝트</a>
+                    <button class="theme-toggle" id="themeToggle" aria-label="다크모드 토글">
+                        <span class="theme-toggle-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">고등학생 시절 프로젝트 포트폴리오</h1>
+                    <p class="hero-subtitle">2022-2024년, AI/머신러닝부터 수학 시뮬레이션까지<br>14개의 탐구 프로젝트 모음</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">14</span>
+                            <span class="stat-label">프로젝트</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">웹 데모</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">영역</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section id="overview" class="overview">
+            <div class="container">
+                <h2 class="section-title">프로젝트 개요</h2>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <div class="card-icon ai-icon"></div>
+                        <h3>AI/머신러닝</h3>
+                        <p>유전 알고리즘, 강화학습, 딥러닝, 컴퓨터 비전 등 다양한 AI 기법을 활용한 7개 프로젝트</p>
+                        <span class="card-count">7개 프로젝트</span>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon math-icon"></div>
+                        <h3>수학/통계</h3>
+                        <p>확률 이론, 수치해석, 최적화 등 수학적 개념의 컴퓨터 구현 및 시각화</p>
+                        <span class="card-count">4개 프로젝트</span>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon web-icon"></div>
+                        <h3>웹 시뮬레이션</h3>
+                        <p>전통적 계산 도구의 디지털 재현과 알고리즘 시각화 도구</p>
+                        <span class="card-count">3개 프로젝트</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Web Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">웹 데모 프로젝트</h2>
+                <p class="section-subtitle">브라우저에서 바로 체험할 수 있는 인터랙티브 프로젝트들</p>
+                
+                <div class="projects-grid">
+                    <!-- AI 기반 감정-색상 추천 시스템 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">AI 기반 감정-색상 추천 시스템</h3>
+                            <span class="project-badge ai-badge">AI/ML</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-tech">Python Flask • Gemini API • 색상 이론</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            텍스트 기반 감정 분석으로 개인의 심리 상태에 맞는 색상을 추천하는 AI 시스템. 
+                            Google Gemini Pro API와 PANTONE 색상 데이터베이스를 활용하여 키워드 매칭 대비 
+                            <strong>85%의 정확도</strong>를 달성했습니다.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature-tag">실시간 감정 분석</span>
+                            <span class="feature-tag">동적 색상 팔레트</span>
+                            <span class="feature-tag">PANTONE 색상 시스템</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects/emotion-color-ai" class="btn btn-primary" target="_blank">
+                                GitHub에서 보기
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 유전 알고리즘 Flappy Bird AI -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">유전 알고리즘 기반 게임 AI</h3>
+                            <span class="project-badge ai-badge">AI/ML</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-tech">JavaScript • 신경망 • 유전 알고리즘</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <p class="project-description">
+                            Flappy Bird 게임에서 진화하는 AI를 구현한 프로젝트. 
+                            <strong>25-30세대</strong>에서 안정적 파이프 통과를 달성하며, 
+                            50세대 내 무한 플레이 가능 개체의 출현률이 85%에 달합니다.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature-tag">신경망 진화</span>
+                            <span class="feature-tag">실시간 시각화</span>
+                            <span class="feature-tag">자연선택 시뮬레이션</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects/genetic-game-ai" class="btn btn-primary" target="_blank">
+                                GitHub에서 보기
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- SVM 시뮬레이터 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">SVM 알고리즘 시각화 도구</h3>
+                            <span class="project-badge web-badge">웹 시뮬레이션</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-tech">p5.js • JavaScript • 기계학습</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            서포트 벡터 머신의 결정 경계와 마진 최적화 과정을 실시간으로 시각화하는 교육용 도구. 
+                            사용자가 직접 데이터 포인트를 배치하며 SVM 알고리즘의 동작 원리를 
+                            <strong>직관적으로 이해</strong>할 수 있습니다.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature-tag">인터랙티브 학습</span>
+                            <span class="feature-tag">실시간 결정 경계</span>
+                            <span class="feature-tag">마진 시각화</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/web-simulations/svm-simulator" class="btn btn-primary" target="_blank">
+                                GitHub에서 보기
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 이진수 주판 계산기 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">이진수 주판 계산기</h3>
+                            <span class="project-badge web-badge">웹 시뮬레이션</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-tech">JavaScript • 이진 연산 • UI/UX</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            2500년 역사의 주판을 이진수 연산에 적용한 혁신적인 계산기. 
+                            전통적인 구슬 조작의 직관성으로 추상적인 이진 연산을 구체적으로 학습할 수 있으며, 
+                            <strong>35% 향상된</strong> 올림수 개념 이해도를 보여줍니다.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature-tag">4가지 연산 지원</span>
+                            <span class="feature-tag">단계별 해설</span>
+                            <span class="feature-tag">실시간 변환</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/web-simulations/binary-calculator" class="btn btn-primary" target="_blank">
+                                GitHub에서 보기
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 전통 주판 시뮬레이터 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">전통 주판 디지털 복원</h3>
+                            <span class="project-badge web-badge">웹 시뮬레이션</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-tech">JavaScript • 전통 계산법 • 문화 보존</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            2500년 계산 역사를 가진 전통 주판을 완벽하게 디지털로 재현한 프로젝트. 
+                            5주판-1주판 시스템을 100% 구현하고 음수 처리까지 지원하여 
+                            <strong>전통 문화의 현대적 계승</strong>을 실현했습니다.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature-tag">7자리 십진수</span>
+                            <span class="feature-tag">음수 지원</span>
+                            <span class="feature-tag">전통 규칙 준수</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/web-simulations/digital-abacus" class="btn btn-primary" target="_blank">
+                                GitHub에서 보기
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Projects Overview -->
+        <section class="all-projects">
+            <div class="container">
+                <h2 class="section-title">전체 프로젝트 목록</h2>
+                <div class="projects-categories">
+                    <!-- AI/ML Projects -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span class="category-icon ai-icon"></span>
+                            AI/머신러닝 프로젝트
+                        </h3>
+                        <div class="project-list">
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>한국어 빈칸 문제 생성기</h4>
+                                    <p>Transformer 기반 언어 모델을 활용한 교육용 도구 (85% 정확도)</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">Python</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>Q-Learning 자율주행 시뮬레이터</h4>
+                                    <p>강화학습 기반 3단계 적응형 학습 시스템 구현</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">Python</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>학교 공간 분류 시스템</h4>
+                                    <p>ResNet-18 전이학습으로 85% 정확도의 실내 공간 분류 달성</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">PyTorch</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>가짜뉴스 탐지 모델</h4>
+                                    <p>Transformer 파인튜닝을 통한 텍스트 신뢰성 자동 판별</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">NLP</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>스테레오 비전 3D 추적</h4>
+                                    <p>실시간 30 FPS로 95% 이상 추적 정확도를 달성한 컴퓨터 비전 시스템</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">OpenCV</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/ai-ml-projects/stereo-3d-tracker" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Math/Statistics Projects -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span class="category-icon math-icon"></span>
+                            수학/통계 연구
+                        </h3>
+                        <div class="project-list">
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>확률과 통계 이론 시각화</h4>
+                                    <p>베이즈 정리, 중심극한정리 등 6가지 핵심 개념의 수치적 검증</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">Python</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/math-statistics" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>경사하강법 최적화</h4>
+                                    <p>미분을 이용한 최적화 알고리즘의 수학적 원리 탐구</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">NumPy</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/math-statistics/numerical-calculus" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>이미지 노이즈 제거</h4>
+                                    <p>편미분방정식 기반 Total Variation 디노이징 기법 구현</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">PDE</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/math-statistics/numerical-calculus" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>수치적분 정확도 분석</h4>
+                                    <p>사다리꼴 공식의 O(h²) 수렴률을 실험적으로 검증</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">수치해석</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/math-statistics/numerical-calculus" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Simulations Projects -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span class="category-icon web-icon"></span>
+                            웹 시뮬레이션 프로젝트
+                        </h3>
+                        <div class="project-list">
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>SVM 알고리즘 시각화 도구</h4>
+                                    <p>서포트 벡터 머신의 결정 경계와 마진 최적화 과정 실시간 시각화</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">p5.js</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/web-simulations/svm-simulator" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>이진수 주판 계산기</h4>
+                                    <p>전통 주판을 이진수 연산에 적용한 혁신적 계산기</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">JavaScript</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/web-simulations/binary-calculator" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-info">
+                                    <h4>전통 주판 디지털 복원</h4>
+                                    <p>2500년 계산 역사를 가진 전통 주판의 완벽한 디지털 재현</p>
+                                </div>
+                                <div class="project-item-actions">
+                                    <span class="project-type">JavaScript</span>
+                                    <a href="https://github.com/Zinki06/highSchool-projects-archive/tree/main/web-simulations/digital-abacus" class="btn btn-sm" target="_blank">
+                                        GitHub에서 보기
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 고등학생 시절 프로젝트 포트폴리오. 모든 프로젝트는 교육 목적으로 개발되었습니다.</p>
+                <p class="footer-note">이 포트폴리오는 2022-2024년 고등학교 재학 중 개발한 프로젝트들을 기록한 것입니다.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
