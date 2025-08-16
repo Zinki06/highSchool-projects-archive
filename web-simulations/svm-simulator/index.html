@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVM 시각화</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SVM (Support Vector Machine) 시각화</h1>
+        <div id="canvas-container"></div>
+        <div class="button-container">
+            <button id="resetButton">포인트 초기화</button>
+            <button id="toggleSVMButton">SVM 토글</button>
+            <button id="classAButton">클래스 A 선택</button>
+            <button id="classBButton">클래스 B 선택</button>
+            <button id="saveImageButton">결과 저장</button>
+        </div>
+        <div id="explanation">
+            <h2>SVM 설명</h2>
+            <p>
+                SVM(Support Vector Machine)은 데이터를 두 개의 클래스로 분류하는 이진 분류 알고리즘입니다. 
+                SVM의 주요 목표는 두 클래스 사이에 가장 넓은 마진을 가진 결정 경계(decision boundary)를 찾는 것입니다.
+            </p>
+            <!-- 나머지 설명 내용 -->
+        </div>
+    </div>
+    <script src="sketch.js"></script>
+    <script src="svm.js"></script>
+</body>
+</html>

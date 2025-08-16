@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이진수 주판 계산기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>이진수 주판 계산기</h1>
+        <div id="abacusA" class="abacus"></div>
+        <input type="text" id="inputA" placeholder="이진수 A 입력">
+        <div id="abacusB" class="abacus"></div>
+        <input type="text" id="inputB" placeholder="이진수 B 입력">
+        <select id="operation">
+            <option value="add">덧셈</option>
+            <option value="subtract">뺄셈</option>
+            <option value="multiply">곱셈</option>
+            <option value="divide">나눗셈</option>
+        </select>
+        <div id="abacusResult" class="abacus"></div>
+        <div id="result" class="result"></div>
+        <button id="saveResult">계산 결과 저장</button>
+        <div id="steps" class="steps"></div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

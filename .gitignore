@@ -1,0 +1,72 @@
+# AI 관련 파일들 - Git 추적 제외
+CLAUDE.md
+*.ai
+*.gpt
+*.ai-backup
+*.claude
+
+# 시스템 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 백업 폴더
+*backup*/
+*_backup/
+backup_*/
+
+# 결과 파일 중 중요하지 않은 것들
+*.pkl.backup
+*.model.backup
